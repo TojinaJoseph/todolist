@@ -20,7 +20,7 @@ form{
      
 }
 /* .todo{
-    background-image: url('/todoimage.jpg');
+    background-image: url(todoimage.jpg);
     background-attachment: fixed;
 } */
 .todolist{
@@ -108,5 +108,5 @@ ul li.checked:before{
     
 }
 .heading{
-    background-image: url('/a.jpg');
+    background-image: url(a.jpg);
 }
