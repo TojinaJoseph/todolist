@@ -1,0 +1,112 @@
+body{
+    background-image: url('/todoimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+form{
+    
+   padding-left: 50px;
+   padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px; 
+    margin-bottom: 10px;
+    background-color: lightpink;
+    width: 400px;
+    /* height: 300px; */
+     
+}
+/* .todo{
+    background-image: url('/todoimage.jpg');
+    background-attachment: fixed;
+} */
+.todolist{
+    /* padding-left: 200px;
+    padding-right: 80px;
+     padding-bottom: 10px;
+     padding-top: 50px; */
+
+     margin-top: 100px;
+     margin-left: 300px;
+     margin-right: 300px; 
+     margin-bottom: 100px;
+     background-color: gainsboro;
+     padding: 10px;
+     width: 650px;
+}
+.todolist h5{
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+padding-bottom: 10px;
+}
+/* .lists{
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px; 
+    margin-bottom: 100px;
+   
+} */
+#title{
+    margin-left: 200px;
+    width: 200px;
+}
+#items{
+     margin: 0;
+    padding: 0; 
+    list-style-type: none;
+}
+/* #items ul li{
+    list-style-type: none;
+    background: #eeeeee;
+    padding: 12px 8px 12px 40px;
+} */
+#items li{
+    background: #eeeeee;
+    margin: 5px;
+    margin-left: 5px;
+    height: 30px;
+    width: 630px;
+    
+}
+#items li:nth-child(odd){
+    background: #dddddd;
+}
+#reload{
+    margin-left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#reload:hover{
+    color:brown;
+}
+#items li:hover{
+    background: #888;
+}
+#items li i{
+     /* font-size: 30px;
+     font-weight: 600;
+     padding-left: 10px;  */
+     float: right;
+     font-size: 20px;
+     cursor: pointer;
+}
+
+ ul li.checked{
+background: #888;
+color: #ffffff;
+text-decoration: line-through;
+}
+ul li.checked:before{
+  content: "";  
+}  
+#delete:hover{
+    color: red;
+    
+}
+.heading{
+    background-image: url('/a.jpg');
+}
